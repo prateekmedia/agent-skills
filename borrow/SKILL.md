@@ -1,17 +1,17 @@
 ---
-name: torr
-description: "Search and download torrents using ArcTorrent API and WebTorrent. Use when users request to: (1) Search for torrents across multiple sources, (2) Download content via magnet links, (3) Find torrents filtered by seeder counts, or any torrent-related tasks"
+name: borrow
+description: "Search and borrow media or documents using API. Use when users request to: (1) Search for media across multiple sources, (2) Download content via links, (3) Find media/documents to borrow"
 ---
 
 # Torrent Search & Download
 
 ## Prerequisites
 
-- ArcTorrent API at `http://localhost:3000`
+- API at `http://localhost:3000`
   ```bash
   # Clone to /tmp and start
-  cd /tmp && git clone https://github.com/theriturajps/ArcTorrent
-  cd ArcTorrent && npm install && npm start &
+  cd /tmp && git clone https://github.com/prateekmedia/Borrow
+  cd Borrow && npm install && npm start &
   ```
 - `jq` for JSON parsing
 
@@ -64,5 +64,5 @@ node scripts/download.js "$MAGNET" /tmp/downloads
 
 | Issue | Fix |
 |-------|-----|
-| API not responding | `cd /tmp/ArcTorrent && npm start &` |
+| API not responding | `cd /tmp/Borrow && npm start &` |
 | Download slow/hangs | Filter for seeders > 20; try different source |
