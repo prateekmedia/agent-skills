@@ -1,6 +1,6 @@
 ---
 name: torr
-description: Search and download torrents using ArcTorrent API and WebTorrent. Use when users request to: (1) Search for torrents across multiple sources, (2) Download content via magnet links, (3) Find torrents filtered by seeder counts, or any torrent-related tasks
+description: "Search and download torrents using ArcTorrent API and WebTorrent. Use when users request to: (1) Search for torrents across multiple sources, (2) Download content via magnet links, (3) Find torrents filtered by seeder counts, or any torrent-related tasks"
 ---
 
 # Torrent Search & Download
